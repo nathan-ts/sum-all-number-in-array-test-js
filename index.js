@@ -7,20 +7,3 @@ function sumItems(array) {
 }
 
 module.exports = sumItems;
-
-console.log(sumItems([0,[1,2],[3,[4]],5])); // 15
-console.log(sumItems([[1, 2, [[3], 4]], 5, []])); // 15
-console.log(sumItems([[[[[[[[[[[[[1]]]]]],2]]],3]],4,5]])); // 15
-
-
-/*
-base case:  array length 1, and array[0] not array
-            
-recursive case: array length 1, and array[0] is array
-                array length > 1, 
-
-
-
-
-
-*/
